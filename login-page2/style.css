@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body, html{
+  background-color: #6288B1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+}
+
+.fundo-principal{
+  gap: 130px; 
+  padding: 17px 20px;
+  display: flex;
+  background-color: white;
+  border-radius: 90px;
+}
+
+.imagem{
+  border-radius: 70px;
+  width: 523px;
+  height: 757px;
+}
+
+.lado1{
+  margin-left: 108px;
+}
+
+.bemvindo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 22px;
+  gap: 7px;
+}
+
+.bemvindo h1{
+  margin: 0;
+}
+
+.bemvindo h3{
+  margin: 0;
+  margin-bottom: 73px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.bemvindo .fa-house{
+  margin-top: 148px;
+  width: 36px;
+  height: 32px;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.box input[type="email"], input[type="password"]{
+  appearance: none;
+  border: 2px solid #011F4B;
+  border-left: none;
+  background: none;
+  border-bottom-right-radius: 38px;
+  border-top-right-radius: 38px;
+  width: 240px;
+  height: 43px;
+  opacity: 50%;
+  outline: none;
+}
+
+.box input[type="email"]::placeholder, input[type="password"]::placeholder{
+  opacity: 100%;
+  color: #000;
+  padding: 10px;
+}
+
+.passwordBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-envelope{
+  border-bottom-left-radius: 38px;
+  border-top-left-radius: 38px;
+  border: 2px solid #011F4B;
+  border-right: none;
+  padding: 14.5px;
+  opacity: 50%;
+}
+
+.fa-eye{
+  border-bottom-left-radius: 38px;
+  border-top-left-radius: 38px;
+  border: 2px solid #011F4B;
+  border-right: none;
+  padding: 14.5px;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.fa-eye:hover{
+  color: blue;
+}
+
+.outro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  font-size: 12px;
+}
+
+.outro .lembrar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outro input[type="checkbox"]{
+  appearance: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  width: 13px;
+  height: 13px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.outro input[type="checkbox"]:before{
+  display: none;
+  content: '\f00c';
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 10px;
+  color: #6288B1;
+}
+
+.outro input[type="checkbox"]:checked::before{
+  display: block;
+}
+.outro input[type="checkbox"]:checked{
+  background-color: #011F4B;
+}
+
+.outro .esqueci{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.outro .esqueci:hover{
+  opacity: 50%;
+  color: #011F4B;
+}
+
+.loginbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login{
+  appearance: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 38px;
+  padding: 13px 118px;
+  color: white;
+  background-color: #011F4B;
+  margin-top: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login:hover{
+  opacity: 80%;
+}
+
+.ou{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: #5a5a5a;
+  margin-top: 26px;
+  margin-bottom: 23px;
+}
+
+.linha1{
+  border: 1px solid #5a5a5a;
+  width: 120px;
+  opacity: 50%;
+}
+
+.linha2{
+  border: 1px solid #5a5a5a;
+  width: 120px;
+  opacity: 50%;
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-shrink: 0;
+}
+
+#brands{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: 2px solid #000;
+  border-radius: 50%;
+  padding: 14px 11px;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#brands:hover{
+  opacity: 50%;
+}
